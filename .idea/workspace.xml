@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="078d810e-b8ad-41d1-b877-ee3da9e99c8e" name="Changes" comment="commit final definitiu&#10;Gerard">
+      <change afterPath="$PROJECT_DIR$/start-client.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start-server.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;srgerard8&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/srgerard8/SDP1.git&quot;,
+    &quot;accountId&quot;: &quot;4cfd5bd3-adca-45bf-8945-a1ec1cc5a027&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Client.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ezr53ckPyXeqbBJznV0sE9mBmc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Client2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ProvaRedis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Server2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ServerRedis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hola.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gerar/PycharmProjects/SDP2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tools.buf&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gerar\PycharmProjects\SDP1" />
+      <recent name="C:\Users\gerar\PycharmProjects\SDP1\.venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gerar\PycharmProjects\SDP1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Client">
+    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="SDP1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Client2" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="SDP1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProvaRedis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDP1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProvaRedis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDP1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\gerar\PycharmProjects\SDP1\Server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ServerNO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDP1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\gerar\PycharmProjects\SDP1\ServerNO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Client" />
+        <item itemvalue="Python.Server" />
+        <item itemvalue="Python.ProvaRedis" />
+        <item itemvalue="Python.ServerNO" />
+        <item itemvalue="Python.Client2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="078d810e-b8ad-41d1-b877-ee3da9e99c8e" name="Changes" comment="" />
+      <created>1712918060793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712918060793</updated>
+    </task>
+    <task id="LOCAL-00001" summary="primer commit gerard">
+      <option name="closed" value="true" />
+      <created>1712918298553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712918298553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primer commit gerard">
+      <option name="closed" value="true" />
+      <created>1712919185958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712919185958</updated>
+    </task>
+    <task id="LOCAL-00003" summary="prova servidor redis gerard">
+      <option name="closed" value="true" />
+      <created>1712919235804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712919235804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="menus gerard">
+      <option name="closed" value="true" />
+      <created>1712920903409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712920903409</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cosa fitxers raros gerard">
+      <option name="closed" value="true" />
+      <created>1712922607095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712922607095</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit final 1r dia gerard">
+      <option name="closed" value="true" />
+      <created>1712922920723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712922920723</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit final 2n dia gerard">
+      <option name="closed" value="true" />
+      <created>1713009553531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713009553531</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit final 3r dia gerard">
+      <option name="closed" value="true" />
+      <created>1713959730600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713959730600</updated>
+    </task>
+    <task id="LOCAL-00009" summary="canvis no útils gerard">
+      <option name="closed" value="true" />
+      <created>1714145757547</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714145757547</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit 4t dia gerard">
+      <option name="closed" value="true" />
+      <created>1714392769132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714392769132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit 4t dia (2) gerard">
+      <option name="closed" value="true" />
+      <created>1714407856343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714407856344</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chat directe operatiu amb servidor de noms local Gerard">
+      <option name="closed" value="true" />
+      <created>1716377604771</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716377604771</updated>
+    </task>
+    <task id="LOCAL-00013" summary="chat directe operatiu amb servidor de noms redis operatiu. es comença a implementar rabbitmq Gerard">
+      <option name="closed" value="true" />
+      <created>1716466516552</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716466516554</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Rabbitmc funciona a mitjes 1a part&#10; Gerard">
+      <option name="closed" value="true" />
+      <created>1717177467693</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717177467693</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Chats de grup funcionen, falta fer transistent - persistent, discover, canal d'insults">
+      <option name="closed" value="true" />
+      <created>1717240491867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717240491867</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Sol·lucionar molts errors, canals d'insult i discover només funciona en opció 2 i 4. s'ha provat a posar els fils al init i el discover funciona pero en el grup salta un error.&#10;Gerard">
+      <option name="closed" value="true" />
+      <created>1717265223572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717265223573</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit final&#10;Gerard">
+      <option name="closed" value="true" />
+      <created>1718022324647</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718022324648</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit final definitiu&#10;Gerard">
+      <option name="closed" value="true" />
+      <created>1718033485288</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718033485288</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit gerard" />
+    <MESSAGE value="prova servidor redis gerard" />
+    <MESSAGE value="menus gerard" />
+    <MESSAGE value="cosa fitxers raros gerard" />
+    <MESSAGE value="commit final 1r dia gerard" />
+    <MESSAGE value="commit final 2n dia gerard" />
+    <MESSAGE value="commit final 3r dia gerard" />
+    <MESSAGE value="canvis no útils gerard" />
+    <MESSAGE value="Commit 4t dia gerard" />
+    <MESSAGE value="Commit 4t dia (2) gerard" />
+    <MESSAGE value="chat directe operatiu amb servidor de noms local Gerard" />
+    <MESSAGE value="chat directe operatiu amb servidor de noms redis operatiu. es comença a implementar rabbitmq Gerard" />
+    <MESSAGE value="Rabbitmc funciona a mitjes 1a part&#10; Gerard" />
+    <MESSAGE value="Chats de grup funcionen, falta fer transistent - persistent, discover, canal d'insults" />
+    <MESSAGE value="Sol·lucionar molts errors, canals d'insult i discover només funciona en opció 2 i 4. s'ha provat a posar els fils al init i el discover funciona pero en el grup salta un error.&#10;Gerard" />
+    <MESSAGE value="commit final&#10;Gerard" />
+    <MESSAGE value="commit final definitiu&#10;Gerard" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit final definitiu&#10;Gerard" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="client._rpc_event.call_details" />
+        <watch expression="client._rpc_event.call_details" />
+        <watch expression="client_stub.Connect._abc_impl" language="Python" />
+        <watch expression="client_stub.Connect._abc_impl" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
