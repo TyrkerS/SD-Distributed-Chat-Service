@@ -1,41 +1,117 @@
-# Readme Sistemes Distribuïts Pràctica 1
-## Visió General del Projecte
-**Equip**: Gerard Altadill i Pol Regy.
+# DISTRIBUTED CHAT SERVICE - PYTHON gRCP
 
-El nostre projecte es basa en un sistema de xats que permet als usuaris connectar-se a un servidor per comunicar-se entre ells. Els usuaris poden enviar missatges a tots els altres usuaris connectats o optar per missatges privats a un destinatari específic. També tenen la possibilitat de connectar-se i desconnectar-se del servidor en qualsevol moment. 
+**Language:** Python  
+**README Language:** English
 
-Els xats privats s'implementen mitjançant el middleware gRPC. Mentre que pels xats de grup s'utilitza un sistema d'exchanges de RabbitMQ. Adicionalment també s'usa el sistema de cues de rabbitMQ per implementar un canal d'insult que es basarà en unsultar a un usuari aleatori connectat a la plataforma.
+---
 
-## Funcionament del programa i passos per executa'l
+## ⭐ Project Summary
+This project implements a simple **distributed chat service** using **gRPC** and Protocol Buffers in Python.  
+It provides a server that exposes RPC methods for sending and receiving messages and a client that connects to the server to participate in chat sessions. The implementation is intended for a Distributed Systems lab (Practica 1) and showcases basic RPC communication, protobuf-based message schemas, and simple concurrency handling on the server side.
 
-Abans de tot, cal tenir instal·lat el docker, el redis, el rabbitMQ, els paquets python3, el pip, el pika i el gRPC. 
+---
 
-En primer lloc, executem l'start-server.bat i l'start-client.bat. L'start-server.bat iniciarà el servidor de noms de redis utilitzant el port 6379 juntament amb el servidor del docker de rabbitMQ al port 5672. Aquest script només es podrà executar una vegada ja que només podem tenir permés obrir un servidor. L'start-client.bat únicament iniciarà un client, aquest script es pot utilitzar tantes vegades com es vulgui per obrir els clients que siguin precissos.
+## 🧩 Technologies & Skills Demonstrated
+- **gRPC & Protocol Buffers** (`.proto`) for RPC interface definition and code generation.  
+- **Python networking** with `grpcio` and generated protobuf Python modules.  
+- **Concurrent server handling** (basic multithreading / async patterns) to support multiple clients.  
+- **CLI client application** demonstrating RPC calls and message handling.  
+- **Packaging & scripts** to start server/client easily on Windows via batch files.
 
-IMPORTANT: Dins d'aquests dos fitxers .bat, s'haurà d'introduïr el camí absolut de la ubicació dels fitxers .py i el .proto, és a dir, el camí absolut de la carpeta on es troba aquest projecte.
+Skills gained:
+- Defining service contracts with protobuf  
+- Generating and using gRPC Python stubs  
+- Building a simple networked application and reasoning about distributed interactions
 
-Un cop tenim el servidor i els clients oberts, podrem començar a utilitzar el nostre sistema de xat. En el servidor no haurem de tocar res ja que estarà tot inicialitzat, només verificarem que no hi hagi cap inconvenient. Els usuaris podran connectar-se al servidor introduint el seu nom d'usuari i el seu port. Un cop introduïdes les dades el servidor connectarà amb el redis per desar les seves credencials i a continuació, a l'usuari se li apareixerà un menú amb les següents opcions:
+---
 
-1. Connectar-se al xat privat
-2. Connectar-se al xat de grup
-3. Subscriure's al xat de grup
-4. Descobreix xats
-5. Accedeix al canal d'insults
-6. Sortir
+## 📁 Project Structure
 
-Si volguessim xatejar amb un client en privat, haurem de seleccionar l'opció 1. A continuació, ens demanarà el nom de l'usuari amb qui volem xatejar i ens connectarà amb ell. Un cop finalitzem la conversa, escriurem la paraula `sortir` per tornar al menú principal i elegir una altra opció.
+```
+SD-Distributed-Chat-Service/
+├── chatservice.proto            → Protocol Buffers service definition
+├── chatservice_pb2.py           → Generated protobuf classes
+├── chatservice_pb2_grpc.py      → Generated gRPC classes
+├── Server.py                    → gRPC server implementation
+├── Client.py                    → gRPC client example
+├── start-server.bat             → Batch script to start the server (Windows)
+├── start-client.bat             → Batch script to start a client (Windows)
+└── Readme.md                    → Original project instructions (Catalan)
+```
 
-Si volguessim xatejar amb un grup de persones, haurem de seleccionar l'opció 2. A continuació, ens demanarà el nom del grup al qual ens volem subscriure i ens connectarà amb ell. Un cop finalitzem la conversa, haurem de seguir el mateix procediment que en el xat privat per tornar al menú principal.
+### Design Philosophy
+- **Clear service definition:** All message types and RPC methods are defined in `chatservice.proto`.  
+- **Generated stubs:** Use the generated Python modules to decouple transport from business logic.  
+- **Simple and instructive:** Focus on demonstrative clarity for educational purposes.
 
-Si ens volguessim subcriure a un xat de grup, haurem de seleccionar l'opció 3. Aquesta ens demanarà el nom del grup al que ens volem subscriure i a continuació, se'ns apareixerà tots els missatges que s'han enviat d'aquell grup, fent-lo així, un sistema de missatges persistens.
+---
 
-Si volem enviar un esdeveniment de discover, haurem de seleccionar l'opció 4. Aquesta enviarà automàticament un missatge en forma d'esdeveniment o notificació als demés usuaris connectats al sistema. Automàticament, es respondrà a aquesta sol·licitud de discover.
+## 🔍 Project Details
 
-Per accedir al canal d'insults, seleccionarem l'opció 5 i esperar a rebre un insult provenint d'un altre usuari. Nosaltres tindrem la oportinitat d'insultar també a un usuari aletori. Un cop volguem finalitzar els insults, haurem de seguir el mateix procediment que en el xat privat per tornar al menú principal.
+### Protocol & API
+The `.proto` file (`chatservice.proto`) defines the message formats (e.g., `ChatMessage`) and service RPCs (e.g., `SendMessage`, `StreamMessages`). The generated Python modules (`chatservice_pb2.py` / `chatservice_pb2_grpc.py`) provide the client and server classes to implement and call.
 
-Si volguessim sortir hauriem de seleccionar l'opció 6 i el client es desconnectarà del servidor.
+### Server (Server.py)
+- Implements the gRPC service handlers.  
+- Maintains client streams / connections and broadcasts messages to connected clients.  
+- Handles basic concurrency for multiple clients.
 
+### Client (Client.py)
+- Connects to the server endpoint.  
+- Sends messages typed by the user.  
+- Subscribes to incoming message streams from the server and prints them on the console.
 
+---
 
+## ▶️ How to Build & Run
 
+### 1. Create a Python virtual environment (recommended)
+```bash
+python3 -m venv venv
+source venv/bin/activate   # Linux / macOS
+venv\Scripts\activate      # Windows
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+If `requirements.txt` is not present, install:
+```bash
+pip install grpcio grpcio-tools
+```
+
+### 3. (Optional) Regenerate gRPC Python code from .proto
+If you modify `chatservice.proto`, regenerate stubs:
+```bash
+python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. chatservice.proto
+```
+
+### 4. Start the server
+On Windows:
+```cmd
+start-server.bat
+```
+Or on Linux/macOS:
+```bash
+python Server.py
+```
+
+### 5. Start one or more clients
+On Windows:
+```cmd
+start-client.bat
+```
+Or:
+```bash
+python Client.py
+```
+
+Clients will connect to the server and participate in the chat session.
+
+---
+
+## ✔ Summary
+This repository provides a compact, educational implementation of a **gRPC-based chat service** in Python, suitable for Distributed Systems coursework. It demonstrates protobuf service design, server-client interactions, simple concurrency, and practical usage of gRPC in Python.
 
