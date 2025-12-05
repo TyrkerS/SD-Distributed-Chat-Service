@@ -9,7 +9,7 @@ class ChatService(chatservice_pb2_grpc.ChatServiceServicer):
     def __init__(self, client):
         self.client = client
 
-    # Mètode de gRPC per a poder enviar missatges
+    # Metode de gRPC per a poder enviar missatges
     def SendMessage(self, request, context):
         sender = request.sender
         message = request.message
